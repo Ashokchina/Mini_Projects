@@ -1,0 +1,38 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    password: ashok
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: qwna xdxv aomd brji
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: lakavathashok2000@gmail.com
+app:
+  messages:
+    invalidLogin: Invalid Credentials
+    invalidPwds:  Both pwds should be the same
+    regSuccesss:  Registration Success
+    duplicateMail: User Already Registered
+    regFailure: Registration Failed
+    updatePwdisfailed: Password update failed
+
+
+
+
+
+
+
+
